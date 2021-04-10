@@ -1,6 +1,6 @@
 # Flight Delay Prediction
 
-<img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80">
+<img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80" height=200 width=500 class="center">
 
 
 ---
@@ -18,8 +18,7 @@ Knowing this, the motivation is clear. Air travel is here to stay. Being able to
 # Included in this Project
 - Explanatory Analysis Notebook
 - Modeling Notebook
-- common
-    - custom scripts used in EDA Notebook
+
 # Part 1
 ### Explanatory Data Analysis
 - Perform in-depth analysis of the data to identify patterns, trends, and connections
@@ -39,10 +38,13 @@ Knowing this, the motivation is clear. Air travel is here to stay. Being able to
         - RandomForrestClassifier
         - XGBoost
 - Evaluate models
-    - Crossvalidate results 
+    - Measure results 
         - with metrics:
             - accuracy
             - recall
+            - precision
+            - f1-score
     - GridSearch:
         - Hyper-parameter tuning for best model
+            - With Recall being the the metric of attention
 ---

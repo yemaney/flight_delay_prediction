@@ -35,6 +35,8 @@ Knowing this, the motivation is clear. Air travel is here to stay. Being able to
 - Use `scikit-learn` api to develop models
     - models attempted are:
         - logistic regression
+        - Naive Bayes
+        - Support Vector Machines
         - RandomForrestClassifier
         - XGBoost
 - Evaluate models
@@ -44,7 +46,5 @@ Knowing this, the motivation is clear. Air travel is here to stay. Being able to
             - recall
             - precision
             - f1-score
-    - GridSearch:
-        - Hyper-parameter tuning for best model
-            - With Recall being the the metric of attention
+        - With `Recall` being the the metric of attention
 ---

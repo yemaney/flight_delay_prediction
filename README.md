@@ -1,6 +1,6 @@
 # Flight Delay Prediction
 
-<img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80" height=200 width=500 class="center">
+![](gif.gif)
 
 ---
 # Motivation
@@ -17,6 +17,7 @@ Knowing this, the motivation is clear. Air travel is here to stay. Being able to
 # Included in this Project
 - Explanatory Analysis Notebook
 - Modeling Notebook
+- Dashboard
 
 # Part 1
 ### Explanatory Data Analysis
@@ -26,7 +27,19 @@ Knowing this, the motivation is clear. Air travel is here to stay. Being able to
     - Time series analysis
     - Correlations
     - Distributions
+
 # Part 2
+### Deployment of a Dashboard for Data Analysis
+- can be run on remote streamlit server [link]()
+- can also be deployed locally
+
+```
+git clone https://github.com/yemaney/flight_delay_prediction.git
+python -m venv venv
+source  venv/Scripts/activate
+pip install -r requirments.txt
+streamlit run streamlit_app.py
+```
 ### Modeling
 - Use inferences from `Part 1` to:
     - develop choose relevant features for modeling

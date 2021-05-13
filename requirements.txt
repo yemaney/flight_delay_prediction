@@ -1,3 +1,4 @@
 plotly==4.14.3
 streamlit==0.81.1
 scikit-learn==0.24.1
+statsmodels==0.12.0

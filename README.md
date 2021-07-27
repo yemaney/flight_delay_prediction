@@ -1,6 +1,7 @@
-# Flight Delay Prediction
+# Flight Delay Prediction 
 
-[The Data Exploration App](https://share.streamlit.io/yemaney/flight_delay_prediction/main/flight_delay.py)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/yemaney/flight_delay_prediction/main/flight_delay.py)
 ![](gif.gif)
 
 ---
